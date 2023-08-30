@@ -157,71 +157,85 @@ export default createStore({
                 topupcats: [
                     {
                         name: 'Diamonds',
+                        img: 'Freefire_diamonds.png',
                         topups: [
                             {
                                 id: 1,
                                 name: '5 Diamonds',
-                                price: 970
+                                price: 970,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 2,
                                 name: "12 Diamonds",
-                                price: 1940
+                                price: 1940,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 3,
                                 name: "50 Diamonds",
-                                price: 7760
+                                price: 7760,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 4,
                                 name: "70 Diamonds",
-                                price: 9700
+                                price: 9700,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 5,
                                 name: "140 Diamonds",
-                                price: 19400
+                                price: 19400,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 6,
                                 name: "355 Diamonds",
-                                price: 48500
+                                price: 48500,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 7,
                                 name: "720 Diamonds",
-                                price: 97000
+                                price: 97000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 8,
                                 name: "1450 Diamonds",
-                                price: 194000
+                                price: 194000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 9,
                                 name: "2180 Diamonds",
-                                price: 291000
+                                price: 291000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 10,
                                 name: "3640 Diamonds",
-                                price: 485000
+                                price: 485000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 11,
                                 name: "7290 Diamonds",
-                                price: 970000
+                                price: 970000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 12,
                                 name: "36500 Diamonds",
-                                price: 4850000
+                                price: 4850000,
+                                img: 'Freefire_diamonds.png'
                             },
                             {
                                 id: 13,
                                 name: "73100 Diamonds",
-                                price: 9700000
+                                price: 9700000,
+                                img: 'Freefire_diamonds.png'
                             }
                         ],
                     }
@@ -231,36 +245,43 @@ export default createStore({
                 id: 3, name: 'PUBG Mobile', img: 'pubg.webp', topupcats: [
                     {
                         name: 'UC',
+                        img: '60_PUBG_UC.png',
                         topups: [
                             {
                                 id: 1,
                                 name: "60 UC",
-                                price: 15035
+                                price: 15035,
+                                img: '60_PUBG_UC.png'
                             },
                             {
                                 id: 2,
                                 name: "325 UC",
-                                price: 75175
+                                price: 75175,
+                                img: '325_PUBG_UC.png'
                             },
                             {
                                 id: 3,
                                 name: "660 UC",
-                                price: 150350
+                                price: 150350,
+                                img: '660_PUBG_UC.png'
                             },
                             {
                                 id: 4,
                                 name: "1800 UC",
-                                price: 362362.86
+                                price: 362362.86,
+                                img: '660_PUBG_UC.png'
                             },
                             {
                                 id: 5,
                                 name: "3850 UC",
-                                price: 750250
+                                price: 750250,
+                                img: '3850_PUBG_UC.png'
                             },
                             {
                                 id: 6,
                                 name: "8100 UC",
-                                price: 1501500
+                                price: 1501500,
+                                img: '8100_PUBG_UC.png'
                             }
                         ]
                     }

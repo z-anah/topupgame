@@ -168,7 +168,9 @@
                   <input id="LoginEmail" type="email" class="form-input mt-3" placeholder="name@example.com">
                     <p class="text-slate-400">Silahkan masukkan email Anda untuk menerima bukti pembelian Anda</p>
                 </div>
-
+                <div class="text-center" >
+  <img v-bind:src="require(`../assets/images/games/${game.name}/${topupcats[topupcat].topups[topupid].img}`)" />
+  </div>
               <h5 class="mt-6 text-xl font-semibold">{{ topupcats[topupcat].topups[topupid].price.toLocaleString("id-ID", {
                 style: "currency",
                 currency: "IDR",
