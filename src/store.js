@@ -2,6 +2,23 @@ import { createStore } from 'vuex'
 
 export default createStore({
     state: {
+        paiments: [
+            {
+                name: 'GOPAY',
+                img: 'GO_PAY_CHNL_LOGO.png',
+                fee: 0,
+            },
+            {
+                name: 'OVO',
+                img: 'OVO_CHNL_LOGO.png',
+                fee: 0,
+            },
+            {
+                name: 'DANA',
+                img: 'DANA_CHNL_LOGO.png',
+                fee: 0,
+            }
+        ],
         games: [
             {
                 id: 1, name: 'Mobile Legends', img: 'ml.webp',
